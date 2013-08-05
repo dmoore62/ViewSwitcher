@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A86753817AF3E3D005B9D6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A86753717AF3E3C005B9D6A /* UIKit.framework */; };
+		2A86753A17AF3E3D005B9D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A86753917AF3E3D005B9D6A /* Foundation.framework */; };
+		2A86753C17AF3E3D005B9D6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A86753B17AF3E3D005B9D6A /* CoreGraphics.framework */; };
+		2A86754217AF3E3D005B9D6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754017AF3E3D005B9D6A /* InfoPlist.strings */; };
+		2A86754417AF3E3D005B9D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A86754317AF3E3D005B9D6A /* main.m */; };
+		2A86754817AF3E3D005B9D6A /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A86754717AF3E3D005B9D6A /* BIDAppDelegate.m */; };
+		2A86754A17AF3E3D005B9D6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754917AF3E3D005B9D6A /* Default.png */; };
+		2A86754C17AF3E3D005B9D6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754B17AF3E3D005B9D6A /* Default@2x.png */; };
+		2A86754E17AF3E3D005B9D6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754D17AF3E3D005B9D6A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A86753417AF3E3C005B9D6A /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A86753717AF3E3C005B9D6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A86753917AF3E3D005B9D6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A86753B17AF3E3D005B9D6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A86753F17AF3E3D005B9D6A /* View Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
+		2A86754117AF3E3D005B9D6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A86754317AF3E3D005B9D6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A86754517AF3E3D005B9D6A /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
+		2A86754617AF3E3D005B9D6A /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		2A86754717AF3E3D005B9D6A /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		2A86754917AF3E3D005B9D6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2A86754B17AF3E3D005B9D6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2A86754D17AF3E3D005B9D6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A86753117AF3E3C005B9D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A86753817AF3E3D005B9D6A /* UIKit.framework in Frameworks */,
+				2A86753A17AF3E3D005B9D6A /* Foundation.framework in Frameworks */,
+				2A86753C17AF3E3D005B9D6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A86752B17AF3E3C005B9D6A = {
+			isa = PBXGroup;
+			children = (
+				2A86753D17AF3E3D005B9D6A /* View Switcher */,
+				2A86753617AF3E3C005B9D6A /* Frameworks */,
+				2A86753517AF3E3C005B9D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A86753517AF3E3C005B9D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A86753417AF3E3C005B9D6A /* View Switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A86753617AF3E3C005B9D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A86753717AF3E3C005B9D6A /* UIKit.framework */,
+				2A86753917AF3E3D005B9D6A /* Foundation.framework */,
+				2A86753B17AF3E3D005B9D6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A86753D17AF3E3D005B9D6A /* View Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				2A86754617AF3E3D005B9D6A /* BIDAppDelegate.h */,
+				2A86754717AF3E3D005B9D6A /* BIDAppDelegate.m */,
+				2A86753E17AF3E3D005B9D6A /* Supporting Files */,
+			);
+			path = "View Switcher";
+			sourceTree = "<group>";
+		};
+		2A86753E17AF3E3D005B9D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A86753F17AF3E3D005B9D6A /* View Switcher-Info.plist */,
+				2A86754017AF3E3D005B9D6A /* InfoPlist.strings */,
+				2A86754317AF3E3D005B9D6A /* main.m */,
+				2A86754517AF3E3D005B9D6A /* View Switcher-Prefix.pch */,
+				2A86754917AF3E3D005B9D6A /* Default.png */,
+				2A86754B17AF3E3D005B9D6A /* Default@2x.png */,
+				2A86754D17AF3E3D005B9D6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A86753317AF3E3C005B9D6A /* View Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A86755117AF3E3D005B9D6A /* Build configuration list for PBXNativeTarget "View Switcher" */;
+			buildPhases = (
+				2A86753017AF3E3C005B9D6A /* Sources */,
+				2A86753117AF3E3C005B9D6A /* Frameworks */,
+				2A86753217AF3E3C005B9D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Switcher";
+			productName = "View Switcher";
+			productReference = 2A86753417AF3E3C005B9D6A /* View Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A86752C17AF3E3C005B9D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "daniel moore";
+			};
+			buildConfigurationList = 2A86752F17AF3E3C005B9D6A /* Build configuration list for PBXProject "View Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A86752B17AF3E3C005B9D6A;
+			productRefGroup = 2A86753517AF3E3C005B9D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A86753317AF3E3C005B9D6A /* View Switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A86753217AF3E3C005B9D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A86754217AF3E3D005B9D6A /* InfoPlist.strings in Resources */,
+				2A86754A17AF3E3D005B9D6A /* Default.png in Resources */,
+				2A86754C17AF3E3D005B9D6A /* Default@2x.png in Resources */,
+				2A86754E17AF3E3D005B9D6A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A86753017AF3E3C005B9D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A86754417AF3E3D005B9D6A /* main.m in Sources */,
+				2A86754817AF3E3D005B9D6A /* BIDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A86754017AF3E3D005B9D6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A86754117AF3E3D005B9D6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A86754F17AF3E3D005B9D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A86755017AF3E3D005B9D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A86755217AF3E3D005B9D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
+				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A86755317AF3E3D005B9D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
+				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A86752F17AF3E3C005B9D6A /* Build configuration list for PBXProject "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A86754F17AF3E3D005B9D6A /* Debug */,
+				2A86755017AF3E3D005B9D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A86755117AF3E3D005B9D6A /* Build configuration list for PBXNativeTarget "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A86755217AF3E3D005B9D6A /* Debug */,
+				2A86755317AF3E3D005B9D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A86752C17AF3E3C005B9D6A /* Project object */;
+}
