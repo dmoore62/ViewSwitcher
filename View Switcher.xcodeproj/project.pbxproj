@@ -16,6 +16,12 @@
 		2A86754A17AF3E3D005B9D6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754917AF3E3D005B9D6A /* Default.png */; };
 		2A86754C17AF3E3D005B9D6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754B17AF3E3D005B9D6A /* Default@2x.png */; };
 		2A86754E17AF3E3D005B9D6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A86754D17AF3E3D005B9D6A /* Default-568h@2x.png */; };
+		2A8DB25517AFE8F600A492E5 /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DB25417AFE8F600A492E5 /* BIDSwitchViewController.m */; };
+		2A8DB25817AFE93F00A492E5 /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DB25717AFE93F00A492E5 /* BIDBlueViewController.m */; };
+		2A8DB25B17AFE94C00A492E5 /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DB25A17AFE94C00A492E5 /* BIDYellowViewController.m */; };
+		2A8DB25D17AFEA1400A492E5 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DB25C17AFEA1400A492E5 /* SwitchView.xib */; };
+		2A8DB25F17AFEA3B00A492E5 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DB25E17AFEA3B00A492E5 /* YellowView.xib */; };
+		2A8DB26117AFEA4F00A492E5 /* BluView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DB26017AFEA4F00A492E5 /* BluView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,15 @@
 		2A86754917AF3E3D005B9D6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2A86754B17AF3E3D005B9D6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2A86754D17AF3E3D005B9D6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2A8DB25317AFE8F600A492E5 /* BIDSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSwitchViewController.h; sourceTree = "<group>"; };
+		2A8DB25417AFE8F600A492E5 /* BIDSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSwitchViewController.m; sourceTree = "<group>"; };
+		2A8DB25617AFE93F00A492E5 /* BIDBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBlueViewController.h; sourceTree = "<group>"; };
+		2A8DB25717AFE93F00A492E5 /* BIDBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBlueViewController.m; sourceTree = "<group>"; };
+		2A8DB25917AFE94C00A492E5 /* BIDYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDYellowViewController.h; sourceTree = "<group>"; };
+		2A8DB25A17AFE94C00A492E5 /* BIDYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDYellowViewController.m; sourceTree = "<group>"; };
+		2A8DB25C17AFEA1400A492E5 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		2A8DB25E17AFEA3B00A492E5 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+		2A8DB26017AFEA4F00A492E5 /* BluView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +93,18 @@
 		2A86753D17AF3E3D005B9D6A /* View Switcher */ = {
 			isa = PBXGroup;
 			children = (
+				2A8DB25317AFE8F600A492E5 /* BIDSwitchViewController.h */,
+				2A8DB25417AFE8F600A492E5 /* BIDSwitchViewController.m */,
+				2A8DB25617AFE93F00A492E5 /* BIDBlueViewController.h */,
+				2A8DB25717AFE93F00A492E5 /* BIDBlueViewController.m */,
+				2A8DB25917AFE94C00A492E5 /* BIDYellowViewController.h */,
+				2A8DB25A17AFE94C00A492E5 /* BIDYellowViewController.m */,
 				2A86754617AF3E3D005B9D6A /* BIDAppDelegate.h */,
 				2A86754717AF3E3D005B9D6A /* BIDAppDelegate.m */,
 				2A86753E17AF3E3D005B9D6A /* Supporting Files */,
+				2A8DB25C17AFEA1400A492E5 /* SwitchView.xib */,
+				2A8DB25E17AFEA3B00A492E5 /* YellowView.xib */,
+				2A8DB26017AFEA4F00A492E5 /* BluView.xib */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -155,6 +179,9 @@
 				2A86754A17AF3E3D005B9D6A /* Default.png in Resources */,
 				2A86754C17AF3E3D005B9D6A /* Default@2x.png in Resources */,
 				2A86754E17AF3E3D005B9D6A /* Default-568h@2x.png in Resources */,
+				2A8DB25D17AFEA1400A492E5 /* SwitchView.xib in Resources */,
+				2A8DB25F17AFEA3B00A492E5 /* YellowView.xib in Resources */,
+				2A8DB26117AFEA4F00A492E5 /* BluView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +194,9 @@
 			files = (
 				2A86754417AF3E3D005B9D6A /* main.m in Sources */,
 				2A86754817AF3E3D005B9D6A /* BIDAppDelegate.m in Sources */,
+				2A8DB25517AFE8F600A492E5 /* BIDSwitchViewController.m in Sources */,
+				2A8DB25817AFE93F00A492E5 /* BIDBlueViewController.m in Sources */,
+				2A8DB25B17AFE94C00A492E5 /* BIDYellowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +311,7 @@
 				2A86755317AF3E3D005B9D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
