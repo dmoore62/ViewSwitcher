@@ -7,6 +7,8 @@
 //
 
 #import "BIDSwitchViewController.h"
+#import "BIDBlueViewController.h"
+#import "BIDYellowViewController.h"
 
 @interface BIDSwitchViewController ()
 
@@ -27,12 +29,36 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.blueViewController = [[BIDBlueViewController alloc]
+                               initWithNibName:@"BlueView" bundle:nil];
+    [self.view insertSubview:self.blueViewController.view atIndex:0];
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    if(self.blueViewController.view.superview == nil){
+        self.blueViewController = nil;
+    }else{
+        self.yellowViewController = nil;
+    }
+}
+
+-(IBAction)switchViews:(id)sender
+{
+    if(self.yellowViewController.view.superview == nil){
+        self.yellowViewController = [[BIDYellowViewController alloc]
+                                     initWithNibName:@"YellowView" bundle:nil];
+        [self.blueViewController.view removeFromSuperview];
+        [self.view insertSubview:self.yellowViewController.view atIndex:0];
+    }else{
+        self.blueViewController = [[BIDBlueViewController alloc]
+                                     initWithNibName:@"BlueView" bundle:nil];
+        [self.yellowViewController.view removeFromSuperview];
+        [self.view insertSubview:self.blueViewController.view atIndex:0];
+    }
 }
 
 @end
