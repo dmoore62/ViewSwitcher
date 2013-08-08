@@ -32,7 +32,7 @@
     self.blueViewController = [[BIDBlueViewController alloc]
                                initWithNibName:@"BlueView" bundle:nil];
     [self.view insertSubview:self.blueViewController.view atIndex:0];
-    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,6 +48,7 @@
 
 -(IBAction)switchViews:(id)sender
 {
+
     if(self.yellowViewController.view.superview == nil){
         self.yellowViewController = [[BIDYellowViewController alloc]
                                      initWithNibName:@"YellowView" bundle:nil];
@@ -56,6 +57,7 @@
     }else{
         self.blueViewController = [[BIDBlueViewController alloc]
                                      initWithNibName:@"BlueView" bundle:nil];
+
         [self.yellowViewController.view removeFromSuperview];
         [self.view insertSubview:self.blueViewController.view atIndex:0];
     }

@@ -39,6 +39,7 @@
 {
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle:@"Blue Button Pressed" message:@"You pressed the button in the Blue view!" delegate:nil cancelButtonTitle:@"Yep, I did" otherButtonTitles:nil];
+
     [alert show];
 }
 
